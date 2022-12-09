@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://minnow95.github.io/sitemap.xml
+Sitemap: https://minnow95.github.io/vuepress-note/sitemap.xml
