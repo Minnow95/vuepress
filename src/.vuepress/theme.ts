@@ -3,7 +3,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://minnow95.github.io",
+  hostname: "https://minnow95.github.io/vuepress-note",
 
   author: {
     name: "Minnow95",
