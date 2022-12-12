@@ -4,9 +4,9 @@ layout: Blog
 icon: home
 title: 主页
 bgImage: "https://minnow95.github.io/vuepress-note/yuan.webp"
-heroText: 你博客的名称
+heroText: 山海不是经
 heroFullScreen: false
-tagline: JAVA2
+tagline: 积土而为山,积水而为海。
 # projects:
 #   - icon: project
 #     name: 项目名称

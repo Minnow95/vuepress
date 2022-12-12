@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/logo.jpeg",
 
   repo: "Minnow95/vuepress-note",
 
@@ -22,17 +22,17 @@ export default hopeTheme({
 
   blog: {
     name: "Minnow",
-    description: "JAVA",
+    description: "专注、克制、展望",
     avatar: "/ai-self.jpeg",
     roundAvatar: true,
     medias: {
-      BiliBili: "https://space.bilibili.com/4506316?spm_id_from=333.1007.0.0",
+      Gitee: "https://gitee.com/minnow",
+      GitHub: "https://github.com/Minnow95",
       QQ: "https://minnow95.github.io/vuepress-note/qq.jpg",
       WeChat: "https://minnow95.github.io/vuepress-note/wechat.png",
       Email: "mailto:2491562126@qq.com",
-      Gitee: "https://gitee.com/minnow",
-      GitHub: "https://github.com/Minnow95",
       Gmail: "mailto:minnow950501@gamil.com",
+      BiliBili: "https://space.bilibili.com/4506316?spm_id_from=333.1007.0.0",
     },
   },
 
@@ -43,12 +43,17 @@ export default hopeTheme({
   sidebar: zhSidebar,
 
   displayFooter: true,
- 
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
   plugins: {
     blog: {
       excerpt: true,
     },
-
+    
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!

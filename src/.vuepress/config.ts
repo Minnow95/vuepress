@@ -5,7 +5,7 @@ export default defineUserConfig({
   
   lang: "zh-CN",
 
-  title: "Minnow",
+  title: "山海不是经",
 
   description: "Minnow 的博客",
 
@@ -14,4 +14,5 @@ export default defineUserConfig({
   theme,
 
   shouldPrefetch: false,
+
 });
