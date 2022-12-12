@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "Minnow95/vuepress-note",
 
-  docsDir: "docs",
+  docsDir: "src",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
